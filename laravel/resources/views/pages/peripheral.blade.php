@@ -1,6 +1,6 @@
 @extends('layouts.main-layout')
 
-@section('content')
+@section('section')
   <h1>
     Name: {{$peripheral -> name}} <br>
     Model: {{$peripheral -> model}} <br>

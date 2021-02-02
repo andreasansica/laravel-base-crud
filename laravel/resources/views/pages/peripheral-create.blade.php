@@ -1,6 +1,6 @@
 @extends('layouts.main-layout')
 
-@section('content')
+@section('section')
   <form action="{{ route('peripheral-store') }}" method="POST">
           @csrf
           @method('POST')
